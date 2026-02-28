@@ -41,7 +41,7 @@ omitted from the repository due to storage constraints but are
 available in the Google Drive / PDF backup:
 - training_curves.png (Loss and Accuracy across epochs)    [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/c7a926cb036e77f24e4aa1854f13cd95e9fd8433/result_images/training_curves.png]
 - confusion_matrix.png                                     [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/d9bacb0ac6af843e5825220eaee53131abcd7d1c/result_images/confusion_matrix.png]
-- misclassified.png (Grid of incorrect predictions with confidence scores)
+- misclassified.png (Grid of incorrect predictions with confidence scores)   [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/c6d4bf0eb36263f6240a7fcedc77256f037ddcb9/result_images/misclassified.png]
 - balanced_final_model.pth (Saved model weights)
 #  Detailed Execution Results
 
