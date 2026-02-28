@@ -40,25 +40,25 @@ The code successfully generated the following artifacts, which are
 omitted from the repository due to storage constraints but are 
 available in the Google Drive / PDF backup:
 - training_curves.png (Loss and Accuracy across epochs)    [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/c7a926cb036e77f24e4aa1854f13cd95e9fd8433/result_images/training_curves.png]
-- confusion_matrix.png 
+- confusion_matrix.png                                     [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/d9bacb0ac6af843e5825220eaee53131abcd7d1c/result_images/confusion_matrix.png]
 - misclassified.png (Grid of incorrect predictions with confidence scores)
 - balanced_final_model.pth (Saved model weights)
-# 📈 Detailed Execution Results
+#  Detailed Execution Results
 
 **Note:** To ensure the 800MB model and heavy visual outputs do not cause rendering issues, visualizations are hosted in the `/results_images` folder.
 
-## 📊 Performance Metrics
-* **Final Test Accuracy:** 90.26%
-* **Validation Accuracy:** [Insert your best val acc, e.g., 92.5%]
+##  Performance Metrics
+* Final Test Accuracy: 90.26%
+* Validation Accuracy: [Insert your best val acc, e.g., 92.5%]
 
-## 🔗 Visual Evidence (Click to View)
+##  Visual Evidence (Click to View)
 As required by the assignment rubric, the following figures document the model's performance and experimental setup:
 
-1. **[Confusion Matrix](./results_images/confusion_matrix.png)**: Shows per-class precision and recall.
-2. **[Training Curves](./results_images/training_curves.png)**: Demonstrates the effect of Dropout and BatchNorm on loss/accuracy.
-3. **[Incorrect Classifications](./results_images/misclassified.png)**: Visual analysis of samples the model struggled with.
+1. [Confusion Matrix](./results_images/confusion_matrix.png): Shows per-class precision and recall.
+2. [Training Curves](./results_images/training_curves.png): Demonstrates the effect of Dropout and BatchNorm on loss/accuracy.
+3. [Incorrect Classifications](./results_images/misclassified.png): Visual analysis of samples the model struggled with.
 
-## 📝 Classification Report
+##  Classification Report
 ```text
               precision    recall  f1-score   support
 
@@ -66,3 +66,4 @@ As required by the assignment rubric, the following figures document the model's
         Blue       0.86      0.92      0.89       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/924a3cded34b455fc3a183f6e1e23934ff1f2b8c/result_images/blue_result.jpeg]
        Green       0.94      0.95      0.94       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/1fcea7acdbf97f0df71cc53b998816c3f6afb7cf/result_images/green_result.jpeg]
          TTR       0.90      0.92      0.91       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/eaaeef5d6dd071d882a221a861736aad7ffd4cf9/result_images/other_result.jpeg]
+
