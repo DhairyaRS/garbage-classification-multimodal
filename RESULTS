@@ -1,1 +1,45 @@
+=====================================================================
+GARBAGE CLASSIFICATION MODEL - EXECUTION RESULTS & METRICS
+=====================================================================
+Note: Due to GitHub's file size limits and rendering timeouts for 
+heavy Jupyter Notebook outputs, this document summarizes the final 
+execution metrics and test results of the model. 
 
+1. MODEL ARCHITECTURE
+---------------------------------------------------------------------
+- Visual Branch: EfficientNet-B0 (Pretrained on ImageNet)
+- Text Branch: BERT-base-uncased (Pretrained on Wikipedia/BooksCorpus)
+- Fusion Head: Concatenated 2048 features -> 512 -> 256 -> 128 -> 4 classes
+
+2. TEST SET EVALUATION
+---------------------------------------------------------------------
+- Overall Test Accuracy: 90.26%
+
+Per-Class Accuracy:
+- Black (General Waste): 128/154 (83.1%)
+- Blue (Recyclable):     141/154 (91.6%)
+- Green (Organic):       146/154 (94.8%)
+- TTR (Depot):           141/154 (91.6%)
+
+3. CLASSIFICATION REPORT
+---------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+       Black       0.91      0.83      0.87       154
+        Blue       0.86      0.92      0.89       154
+       Green       0.94      0.95      0.94       154
+         TTR       0.90      0.92      0.91       154
+
+    accuracy                           0.90       616
+   macro avg       0.90      0.90      0.90       616
+weighted avg       0.90      0.90      0.90       616
+
+4. VISUAL OUTPUTS & ARTIFACTS
+---------------------------------------------------------------------
+The code successfully generated the following artifacts, which are 
+omitted from the repository due to storage constraints but are 
+available in the Google Drive / PDF backup:
+- training_curves.png (Loss and Accuracy across epochs)
+- confusion_matrix.png 
+- misclassified.png (Grid of incorrect predictions with confidence scores)
+- balanced_final_model.pth (Saved model weights)
