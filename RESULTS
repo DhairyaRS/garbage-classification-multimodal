@@ -51,7 +51,7 @@ Note: To ensure the 800MB model and heavy visual outputs do not cause rendering 
 * Final Test Accuracy: 90.26%
 * Validation Accuracy: 90.58%
 
-##  Visual Evidence (Click to View)
+##  Visual Evidence
 As required by the assignment rubric, the following figures document the model's performance and experimental setup:
 
 1. [Confusion Matrix](./results_images/confusion_matrix.png): Shows per-class precision and recall.
