@@ -45,11 +45,11 @@ available in the Google Drive / PDF backup:
 - balanced_final_model.pth (Saved model weights)           [https://drive.google.com/file/d/1JK058-trsn7zb7HP-TRexPMCNV4eYyaA/view?usp=drive_link]
 #  Detailed Execution Results
 
-**Note:** To ensure the 800MB model and heavy visual outputs do not cause rendering issues, visualizations are hosted in the `/results_images` folder.
+Note: To ensure the 800MB model and heavy visual outputs do not cause rendering issues, visualizations are hosted in the `/results_images` folder.
 
 ##  Performance Metrics
 * Final Test Accuracy: 90.26%
-* Validation Accuracy: [Insert your best val acc, e.g., 92.5%]
+* Validation Accuracy: 90.58%
 
 ##  Visual Evidence (Click to View)
 As required by the assignment rubric, the following figures document the model's performance and experimental setup:
