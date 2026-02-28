@@ -59,7 +59,7 @@ As required by the assignment rubric, the following figures document the model's
 3. [Incorrect Classifications](./results_images/misclassified.png): Visual analysis of samples the model struggled with.
 
 ##  Classification Report
-```text
+
               precision    recall  f1-score   support
 
        Black       0.91      0.83      0.87       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/fb0a89c423216891b95a7e1ab7a945f25c7a0d19/result_images/black_result.jpeg]
