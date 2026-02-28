@@ -39,7 +39,7 @@ weighted avg       0.90      0.90      0.90       616
 The code successfully generated the following artifacts, which are 
 omitted from the repository due to storage constraints but are 
 available in the Google Drive / PDF backup:
-- training_curves.png (Loss and Accuracy across epochs)
+- training_curves.png (Loss and Accuracy across epochs)    [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/c7a926cb036e77f24e4aa1854f13cd95e9fd8433/result_images/training_curves.png]
 - confusion_matrix.png 
 - misclassified.png (Grid of incorrect predictions with confidence scores)
 - balanced_final_model.pth (Saved model weights)
