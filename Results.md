@@ -22,16 +22,16 @@ Per-Class Accuracy:
 
 3. CLASSIFICATION REPORT
 ---------------------------------------------------------------------
-              precision    recall  f1-score   support
+              Precision    Recall  F1-score   Support
 
        Black       0.91      0.83      0.87       154
         Blue       0.86      0.92      0.89       154
        Green       0.94      0.95      0.94       154
          TTR       0.90      0.92      0.91       154
 
-    accuracy                           0.90       616
-   macro avg       0.90      0.90      0.90       616
-weighted avg       0.90      0.90      0.90       616
+    Accuracy                           0.90       616
+   Macro avg       0.90      0.90      0.90       616
+Weighted avg       0.90      0.90      0.90       616
 
 4. VISUAL OUTPUTS & ARTIFACTS
 ---------------------------------------------------------------------
