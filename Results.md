@@ -59,12 +59,12 @@ As required by the assignment rubric, the following figures document the model's
 
 ##  Classification Report
 
- Name       precision    recall  f1-score   support
+ Name         Precision    Recall    F1-score   Support
 
-  Black     0.91      0.83      0.87       154        [Black Result Image](./result_images/black_result.jpeg)
+  Black       0.91         0.83      0.87         154        [Black Result Image](./result_images/black_result.jpeg)
   
-  Blue      0.86      0.92      0.89       154        [Blue Result Image](./result_images/blue_result.jpeg)
+  Blue        0.86         0.92      0.89         154        [Blue Result Image](./result_images/blue_result.jpeg)
   
-  Green     0.94      0.95      0.94       154        [Green Result Image](./result_images/green_result.jpeg)
+  Green       0.94        0.95       0.94         154        [Green Result Image](./result_images/green_result.jpeg)
   
-  TTR       0.90      0.92      0.91       154        [TTR (Other) Result Image](./result_images/other_result.jpeg)
+  TTR         0.90        0.92       0.91         154        [TTR (Other) Result Image](./result_images/other_result.jpeg)
