@@ -59,12 +59,11 @@ As required by the assignment rubric, the following figures document the model's
 
 ##  Classification Report
 
- Name       |  Precision  |  Recall  |  F1-score  |  Support
+## Classification Report
 
-  Black     |   0.910000     |    0.83000   |  0.870000      |   154        [Black Result Image](./result_images/black_result.jpeg)
-  
-  Blue      |   0.860000    |    0.920000   |   0.890000     |   154        [Blue Result Image](./result_images/blue_result.jpeg)
-  
-  Green     |   0.940000     |    0.950000    |  0.940000      |   154        [Green Result Image](./result_images/green_result.jpeg)
-  
-  TTR       |   0.900000     |   0.920000     |  0.910000      |   154        [TTR (Other) Result Image](./result_images/other_result.jpeg)
+| Name  | Precision | Recall | F1-score | Support | Result |
+|-------|----------|--------|----------|---------|--------|
+| Black | 0.910000 | 0.830000 | 0.870000 | 154 | <img src="./result_images/black_result.jpeg" width="120"/> |
+| Blue  | 0.860000 | 0.920000 | 0.890000 | 154 | <img src="./result_images/blue_result.jpeg" width="120"/> |
+| Green | 0.940000 | 0.950000 | 0.940000 | 154 | <img src="./result_images/green_result.jpeg" width="120"/> |
+| TTR   | 0.900000 | 0.920000 | 0.910000 | 154 | <img src="./result_images/other_result.jpeg" width="120"/> |
