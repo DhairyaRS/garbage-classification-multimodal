@@ -1,4 +1,3 @@
-=====================================================================
 GARBAGE CLASSIFICATION MODEL - EXECUTION RESULTS & METRICS
 =====================================================================
 Note: Due to GitHub's file size limits and rendering timeouts for 
