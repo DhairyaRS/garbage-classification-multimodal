@@ -65,6 +65,6 @@ As required by the assignment rubric, the following figures document the model's
   
   Blue      |   0.86     |    0.92   |   0.89     |   154        [Blue Result Image](./result_images/blue_result.jpeg)
   
-  Green     |   0.94     |   0.95    |  0.94      |   154        [Green Result Image](./result_images/green_result.jpeg)
+  Green     |   0.94     |    0.95    |  0.94      |   154        [Green Result Image](./result_images/green_result.jpeg)
   
-  TTR       |   0.90     |  0.92     |  0.91      |    154        [TTR (Other) Result Image](./result_images/other_result.jpeg)
+  TTR       |   0.90     |   0.92     |  0.91      |   154        [TTR (Other) Result Image](./result_images/other_result.jpeg)
