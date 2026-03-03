@@ -5,7 +5,6 @@ heavy Jupyter Notebook outputs, this document summarizes the final
 execution metrics and test results of the model. 
 
 ## 1. MODEL ARCHITECTURE
----------------------------------------------------------------------
 - Visual Branch: EfficientNet-B0 (Pretrained on ImageNet)
 - Text Branch: BERT-base-uncased (Pretrained on Wikipedia/BooksCorpus)
 - Fusion Head: Concatenated 2048 features -> 512 -> 256 -> 128 -> 4 classes
