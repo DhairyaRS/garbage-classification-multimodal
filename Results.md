@@ -4,13 +4,13 @@ Note: Due to GitHub's file size limits and rendering timeouts for
 heavy Jupyter Notebook outputs, this document summarizes the final 
 execution metrics and test results of the model. 
 
-1. MODEL ARCHITECTURE
+## 1. MODEL ARCHITECTURE
 ---------------------------------------------------------------------
 - Visual Branch: EfficientNet-B0 (Pretrained on ImageNet)
 - Text Branch: BERT-base-uncased (Pretrained on Wikipedia/BooksCorpus)
 - Fusion Head: Concatenated 2048 features -> 512 -> 256 -> 128 -> 4 classes
 
-2. TEST SET EVALUATION
+## 2. TEST SET EVALUATION
 ---------------------------------------------------------------------
 - Overall Test Accuracy: 90.26%
 
@@ -20,7 +20,7 @@ Per-Class Accuracy:
 - Green (Organic):       146/154 (94.8%)
 - TTR (Depot):           141/154 (91.6%)
 
-3. CLASSIFICATION REPORT
+## 3. CLASSIFICATION REPORT
 ---------------------------------------------------------------------
               Precision    Recall  F1-score   Support
 
@@ -33,7 +33,7 @@ Per-Class Accuracy:
    Macro avg       0.90      0.90      0.90       616
 Weighted avg       0.90      0.90      0.90       616
 
-4. VISUAL OUTPUTS & ARTIFACTS
+## 4. VISUAL OUTPUTS & ARTIFACTS
 ---------------------------------------------------------------------
 The code successfully generated the following artifacts, which are 
 omitted from the repository due to storage constraints but are 
@@ -56,8 +56,6 @@ As required by the assignment rubric, the following figures document the model's
 1. [Confusion Matrix](./results_images/confusion_matrix.png): Shows per-class precision and recall.
 2. [Training Curves](./results_images/training_curves.png): Demonstrates the effect of Dropout and BatchNorm on loss/accuracy.
 3. [Incorrect Classifications](./results_images/misclassified.png): Visual analysis of samples the model struggled with.
-
-##  Classification Report
 
 ## Classification Report
 
