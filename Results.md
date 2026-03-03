@@ -62,8 +62,8 @@ As required by the assignment rubric, the following figures document the model's
 
               precision    recall  f1-score   support
 
-       Black       0.91      0.83      0.87       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/fb0a89c423216891b95a7e1ab7a945f25c7a0d19/result_images/black_result.jpeg]
-        Blue       0.86      0.92      0.89       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/924a3cded34b455fc3a183f6e1e23934ff1f2b8c/result_images/blue_result.jpeg]
-       Green       0.94      0.95      0.94       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/1fcea7acdbf97f0df71cc53b998816c3f6afb7cf/result_images/green_result.jpeg]
-         TTR       0.90      0.92      0.91       154        [https://github.com/DhairyaRS/garbage-classification-multimodal/blob/eaaeef5d6dd071d882a221a861736aad7ffd4cf9/result_images/other_result.jpeg]
+       Black       0.91      0.83      0.87       154        [Black Result Image](https://github.com/DhairyaRS/garbage-classification-multimodal/blob/fb0a89c423216891b95a7e1ab7a945f25c7a0d19/result_images/black_result.jpeg)
+        Blue       0.86      0.92      0.89       154        [Blue Result Image](https://github.com/DhairyaRS/garbage-classification-multimodal/blob/924a3cded34b455fc3a183f6e1e23934ff1f2b8c/result_images/blue_result.jpeg)
+       Green       0.94      0.95      0.94       154        [Green Result Image](https://github.com/DhairyaRS/garbage-classification-multimodal/blob/1fcea7acdbf97f0df71cc53b998816c3f6afb7cf/result_images/green_result.jpeg)
+         TTR       0.90      0.92      0.91       154        [TTR (Other) Result Image](https://github.com/DhairyaRS/garbage-classification-multimodal/blob/eaaeef5d6dd071d882a221a861736aad7ffd4cf9/result_images/other_result.jpeg)
 
