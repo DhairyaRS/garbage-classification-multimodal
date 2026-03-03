@@ -10,7 +10,6 @@ execution metrics and test results of the model.
 - Fusion Head: Concatenated 2048 features -> 512 -> 256 -> 128 -> 4 classes
 
 ## 2. TEST SET EVALUATION
----------------------------------------------------------------------
 - Overall Test Accuracy: 90.26%
 
 Per-Class Accuracy:
@@ -20,7 +19,6 @@ Per-Class Accuracy:
 - TTR (Depot):           141/154 (91.6%)
 
 ## 3. CLASSIFICATION REPORT
----------------------------------------------------------------------
               Precision    Recall  F1-score   Support
 
        Black       0.91      0.83      0.87       154
@@ -33,7 +31,6 @@ Per-Class Accuracy:
 Weighted avg       0.90      0.90      0.90       616
 
 ## 4. VISUAL OUTPUTS & ARTIFACTS
----------------------------------------------------------------------
 The code successfully generated the following artifacts, which are 
 omitted from the repository due to storage constraints but are 
 available in the Google Drive / PDF backup:
