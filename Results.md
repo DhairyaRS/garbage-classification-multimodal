@@ -3,6 +3,7 @@ GARBAGE CLASSIFICATION MODEL - EXECUTION RESULTS & METRICS
 Note: Due to GitHub's file size limits and rendering timeouts for 
 heavy Jupyter Notebook outputs, this document summarizes the final 
 execution metrics and test results of the model. 
+Take a look https://huggingface.co/spaces/Meet278/garbage-classifier
 
 ## 1. MODEL ARCHITECTURE
 - Visual Branch: EfficientNet-B0 (Pretrained on ImageNet)
