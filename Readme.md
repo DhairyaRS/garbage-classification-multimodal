@@ -1,4 +1,5 @@
 # Multimodal Garbage Classification using EfficientNet and BERT
+https://huggingface.co/spaces/Meet278/garbage-classifier
 
 This project implements a multimodal garbage classification model in PyTorch using both image and text information. The image features are extracted using a pretrained **EfficientNet-B0** CNN, and text features are extracted using a pretrained **BERT-base** model. The text input is automatically generated from the image filename by cleaning and tokenizing it. These features are combined (feature fusion) and passed through fully connected layers to classify each sample into one of four classes: **Black, Blue, Green, and TTR**.
 
